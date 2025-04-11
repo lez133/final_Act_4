@@ -53,8 +53,7 @@
             </div>
           </td>
         </tr>
-
-        {{-- Modal for Editing --}}
+        
         <div class="modal fade" id="editUserModal{{ $user->id }}" tabindex="-1" aria-labelledby="editUserLabel{{ $user->id }}" aria-hidden="true">
           <div class="modal-dialog">
             <form method="POST" action="{{ route('user.update', $user->id) }}">
