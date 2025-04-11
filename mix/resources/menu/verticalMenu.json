@@ -1,0 +1,29 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "name": "User",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/user-list",
+          "name": "list",
+          "slug": "tables-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic",
+          "target": "_blank"
+        }
+      ]
+    }
+  ]
+}
